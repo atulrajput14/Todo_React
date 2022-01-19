@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.main_div{
+  background-color:#ccc;
+  width:100%;
+  height:100vh;
+  align-items:center;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.center_div {
+  width:25%;
+  height:80vh;
+  background-color:#fff;
+  box-shadow: 5px 5px 25px -5px #000;
+  border-radius:20px;
+}
+.center_div h1 {
+  background-color: rgb(182, 74, 141);
+  color: #fff;
+}
+.center_div input {
+  text-align: center;
+  height: 30px;
+  top: 10px;
+  border: none;
+  background: transparent;
+  font-size: 20px;
+  font-weight: 500;
+  width: 60%;
+  border-bottom: 2px solid #8566aa;
+  outline: none;
+}
+
+button {
+  min-height: 40px;
+  width: 40px;
+  border-radius: 40%;
+  border-color: transparent;
+  background-color: #8566aa;
+  color:#fff;
+  font-size: 40px;
+  border: none;
+  outline: none;
+  margin-left: 10px;
+  box-shadow: 5px 5px 15px -5px rgba(0, e, e, e.3);
+}
+button:hover{
+  background-color: rgb(2, 158, 15);
+}
+
+ol{
+  margin-top:20px;
+}
+ol li {
+  padding-left: Opx;
+  /* padding: 3px 0; */
+  text-align: left;
+  font-size: 20px;
+  font-weight: 500;
+  min-height: 40px;
+  display: inline-flex;
+  align-items: center;
+  color: #8566aa;
+  text-transform: capitalize;
+  /* border-bottom: 1px solid grey; */
+ }
+ .todo_style .fa-times  {
+   border-radius: 50px;
+   width: 30px;
+   height: 30px;
+  background-color: rgb(255, 39, 219);
+ }
+ .todo_style .fa-times:hover {
+  background-color: red;
+ }
+ .todo_style .fa-times .list_style {
+  color: rgb(248, 118, 118);
+}
+ .todo_style .fa-times:hover .list_style {
+   color: red;
+ }
+ .todo_style {
+   text-align: left;
+ }
+ .todo_style .fa-times {
+  margin: 0 15px 0 0px;;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+ }
+ button {
+  margin-left: 5px;
+  min-height: 40px;
+  width: 40px;
+  color: #fff;
+  font-size: 30px;
+ }
